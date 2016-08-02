@@ -13,7 +13,7 @@
 // base styles
 *{
   box-sizing: border-box;
-	transition: all .2s;
+	transition: all .2s
 }
 
 html { 
@@ -28,9 +28,8 @@ body {
 }
 
 .wrapper{
-    max-width: 960px;
+    max-width: 1170px;
     margin: 0 auto;
-    height: 100%;
 }
 .clearfix:after { 
    content: '.';
