@@ -1,14 +1,40 @@
 .header {
-    height:70px;
+    // background: $main-green;
+    background: url(d:/sinus/www/sass_progects/modus/src/images/header-bg.jpg) repeat;
+
+    &-logo {
+		display: inline-block;
+		margin: 28px 0px 22px 0px;
+
+    	&__part1 {
+			font-size: 30px;
+			font-weight: 800;
+			text-transform: uppercase;
+			display: inline-block;
+			color: $white;
+    	}
+
+    	&__part2 {
+			font-size: 25px;
+			margin-top: 1px;
+			display: inline-block;
+			color: $white;
+    	}
+    }
 }
 
 .header-menu {
-	margin: 0;
+    margin: 0;
+    padding: 0;
+
+	&-box {
+		display: inline-block;
+		margin-left: 190px;
+	}
 	
 	&__item {
 		list-style: none;
 		float: left;
-		width: 100px;
 	}
 
 	&__link {
@@ -25,13 +51,76 @@
 		text-align: center;
 
 		&:hover {
+			text-decoration: none;
 			background: $hower-green;
+			color: $white;
 			border-radius: 3px;
-
 		}
 	}
 }
 
 .header-submenu {
 	display: none;
+	position: absolute;
+
+	color: #ffffff;
+	padding: 20px 0 0 25px;
+
+	text-align: center;
+
+		&__item__sub {
+			margin-bottom: 20px;
+			list-style-type: none;
+		}
+}
+
+.drop:before {
+	content: url(d:/sinus/www/sass_progects/modus/src/images/drop_arrow.png);
+	position: relative;
+    left: 13px;
+    bottom: 2px;
+}
+
+.fa {
+	margin-left: 14px;
+    cursor: pointer;
+    bottom: 5px;
+    position: relative;
+    color: $white;
+}
+
+.search {
+	width: 720px;
+    display: none;
+    position: absolute;
+    left: 780px;
+    top: 5px;
+	
+.input-lg {
+	padding: 10px 35px;
+	border-radius: 25px;
+}
+	
+	&__label {
+		position: relative;
+    	top: 42px;
+	}
+
+	&__input {
+		padding: 10px 35px;
+		border-radius: 25px;
+	}
+}
+
+.search__icon{
+	color: black;
+}
+
+.tog-box{
+	display:block;
+}
+
+.header-linear {
+	height:10px;
+	background: url(d:/sinus/www/sass_progects/modus/src/images/header_linear.jpg) repeat;
 }
