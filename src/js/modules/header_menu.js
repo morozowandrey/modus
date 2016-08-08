@@ -8,4 +8,11 @@ $(window).load(function(){
 			$(".header-submenu").removeClass('tog-box');
 		}
 	})
+
+	$('span.menu-btn').click(function() {
+
+		$('ul.header-menu').toggle();
+	})
+
 })
+

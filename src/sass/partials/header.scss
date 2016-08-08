@@ -1,10 +1,11 @@
 .header {
-    // background: $main-green;
-    background: url(d:/sinus/www/sass_progects/modus/src/images/header-bg.jpg) repeat;
+    background: $main-green;
+
+////////////////////////////// LOGO
 
     &-logo {
 		display: inline-block;
-		margin: 28px 0px 22px 0px;
+		margin: 28px 0px 22px 10px;
 
     	&__part1 {
 			font-size: 30px;
@@ -23,13 +24,19 @@
     }
 }
 
+////////////////////////////// EO LOGO
+
+
+////////////////////////////// MENU
+
 .header-menu {
     margin: 0;
     padding: 0;
+    display: inline-block;
 
 	&-box {
 		display: inline-block;
-		margin-left: 190px;
+		margin-left: 180px;
 	}
 	
 	&__item {
@@ -89,12 +96,17 @@
     color: $white;
 }
 
+////////////////////////////// EO MENU
+
+
+////////////////////////////// SEARCH
+
 .search {
 	width: 720px;
     display: none;
     position: absolute;
-    left: 780px;
-    top: 5px;
+    left: 650px;
+    top: 10px;
 	
 .input-lg {
 	padding: 10px 35px;
@@ -116,6 +128,8 @@
 	color: black;
 }
 
+////////////////////////////// EO SEARCH
+
 .tog-box{
 	display:block;
 }
@@ -124,3 +138,129 @@
 	height:10px;
 	background: url(d:/sinus/www/sass_progects/modus/src/images/ds.jpg) repeat;
 }
+
+
+////////////////////////////// ADAPTIVE
+
+@media (max-width: 1400px) {
+	
+	.search {
+    	left: 350px;
+	}
+}
+
+@media (max-width: 1180px) {
+	
+	.header-menu-box {
+	    margin-left: 40px;
+	}
+
+	.search {
+    	left: 250px;
+    	width: 520px;
+	}
+}
+
+@media (max-width: 1040px) {
+	
+	.header-menu__link {
+	    padding: 10px 5px;
+	}
+
+	.drop:before {
+	    left: 2px;
+	    bottom: 3px;
+	}
+}
+
+@media (max-width: 830px) {
+	
+	.header-menu-box {
+	    position: absolute;
+	    display: table-caption;
+	    top: 30px;
+	    left: 250px;
+	    width: 120px;
+	}
+
+	.header-menu {
+		display: none;
+	}
+
+	.header-menu__item {
+	    width: 120px;
+	}
+
+	.subitem{
+		margin-top: -20px;
+	}
+
+	.header-menu__link {
+	    display: block;
+	    padding: 10px 20px;
+
+	    &:hover {
+	    	text-decoration: none;
+	    	background: $hower-green;
+	    	color: $white;
+	    	border-radius: 3px;
+	    }
+	}
+
+	.drop:before {
+	    left: 5px;
+	    bottom: -10px;
+	}
+
+	.header-submenu {
+	    position: absolute;
+	    bottom: 0px;
+	    left: 100px;
+	}
+
+	.header-submenu__item__sub {
+	    margin-bottom: 0px;
+	}
+
+	.menu-btn {
+		display: block;
+
+		text-transform: uppercase;
+
+		font-size: 16px;
+		font-weight: 600;
+		font-family: $main-ff;
+
+		background: $main-green;
+		color: $white;
+		padding: 10px 20px;
+		text-align: center;
+
+	}
+	.menu-btn:before {
+		content: "menu";
+		text-transform: uppercase;
+
+	}
+}
+
+@media (max-width: 780px) {	
+
+	.search {
+    	width: 220px;
+	}
+}
+
+@media (max-width: 480px) {
+	
+	.search {
+    	left: 55px;
+    	top: 45px;
+	}
+
+	.header-logo {
+		margin: 20px 0px 22px 60px;
+	}
+}
+
+////////////////////////////// EO ADAPTIVE

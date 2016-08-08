@@ -1,0 +1,51 @@
+.under-header {
+	background: $gray;
+
+	&__name {
+		margin: 35px 0 30px 10px;
+		font-size: 25px;
+		display: inline-block;
+		color: $dark-gray;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	&__nav {
+		display: inline-block;
+		position: relative;
+		float: right;
+		top: 40px;
+		
+		&__link1,&__link2 {
+			display: inline-block;
+
+			text-decoration: none;
+
+			font-size: 14px;
+			font-weight: 600;
+			font-family: $main-ff;
+
+			color: $mid-gray;
+		}
+
+		&__link1:hover,
+		&__link2:hover {
+			text-decoration: none;
+			background: $hower-green;
+			color: $white;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+
+		&__item {
+			color: $mid-gray; 
+		}
+	}
+}
+
+.flag:before {
+	content: url(d:/sinus/www/sass_progects/modus/src/images/flag.png);
+	position: relative;
+    left: 375px;
+    top: 117px;
+}
