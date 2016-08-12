@@ -1,5 +1,5 @@
 .under-header {
-	background: $gray;
+	background: $mid-gray;
 
 	&__name {
 		margin: 35px 0 30px 10px;
@@ -25,7 +25,7 @@
 			font-weight: 600;
 			font-family: $main-ff;
 
-			color: $mid-gray;
+			color: $gray;
 		}
 
 		&__link1:hover,
@@ -35,17 +35,21 @@
 			color: $white;
 			border-radius: 3px;
 			cursor: pointer;
+			padding: 5px;
 		}
 
 		&__item {
-			color: $mid-gray; 
+			color: $gray; 
 		}
 	}
 }
 
-.flag:before {
-	content: url(d:/sinus/www/sass_progects/modus/src/images/flag.png);
-	position: relative;
-    left: 375px;
-    top: 117px;
-}
+// .flag:before {
+// 	content: url(d:/sinus/www/sass_progects/modus/src/images/flag.png);
+// 	position: relative;
+//     left: 375px;
+//     top: 117px;
+//     box-sizing: border-box;
+//     margin: 0;
+//     position: 0;
+// }

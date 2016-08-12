@@ -3,11 +3,12 @@
 @import 'modules/mixins';
 @import 'modules/fonts';
 @import 'base/reset';
+@import 'modules/infograph.scss';
 
 // partials
-@import 'partials/header';
+@import 'partials/header.scss';
 @import 'partials/under_header_raw.scss';
-@import 'partials/footer';
+@import 'partials/info.scss';
 
 //
 // base styles
@@ -32,7 +33,7 @@ body {
     margin: 0 auto;
 }
 .clearfix:after { 
-   content: '.';
+   content: '';
    visibility: hidden;
    display: block;
    height: 0;

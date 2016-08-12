@@ -1,0 +1,199 @@
+
+%box {
+	position: absolute;
+
+	margin: 0;
+	padding: 24px 31px;
+
+	background: $light-gray;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.info {
+	background: $light-gray;
+
+	&-heading {
+
+		&__caption {
+			margin: 50px 0 20px 5px;
+			
+			font-size: 30px;
+			font-weight: 400;
+			font-family: $main-ff;
+
+			color: $main-orange;
+		}
+		&__text {
+			margin-bottom: 75px;
+			padding: 0px 10px 0px 15px;
+
+			font-size: 14px;
+			font-weight: 400;
+			font-family: $main-ff;
+			letter-spacing: 0.3px;
+
+			color: $gray;
+		}
+	}
+	
+	&-lists {
+		display: inline-block;
+		position: relative;
+		top: -15px;
+
+		&__box1 {
+			display: inline-block;
+		}
+
+		&__box2 {
+			display: inline-block;
+			margin-left: 80px;
+		}
+	}
+
+	&-graph {
+		display: inline-block;
+		margin-left: 60px;
+
+		&__caption {
+			width: 515px;
+			margin-left: 20px;
+
+			margin-bottom: 60px;
+
+			font-size: 12px;
+			font-weight: 600;
+			font-family: $main-ff;
+
+			color: $gray; 
+
+			&__link {
+				color: $main-orange;
+				text-decoration: underline;
+			}
+			&__link:hover {
+				color: $main-orange;
+				opacity: 0.5;
+			}
+		}
+
+		&__circles {
+			
+			&__label1 {
+				position: absolute;
+				top: 635px;
+
+				margin: 0;
+				padding: 24px 18px 24px 14px;
+
+				background: $light-gray;
+				color: $dark-gray;
+
+				font-size: 16px;
+				font-weight: 800;
+				font-family: $main-ff;
+				text-transform: uppercase;
+			}
+
+			&__label2 {
+				position: absolute;
+				top: 635px;
+				left: 1103px;
+
+				margin: 0;
+				padding: 24px 35px;
+
+				background: $light-gray;
+				color: $dark-gray;
+
+				font-size: 16px;
+				font-weight: 800;
+				font-family: $main-ff;
+				text-transform: uppercase;
+			}
+
+			&__label3 {
+				position: absolute;
+				top: 635px;
+				left: 1247px;
+
+				margin: 0;
+				padding: 24px 40px;
+
+				background: $light-gray;
+				color: $dark-gray;
+
+				font-size: 16px;
+				font-weight: 800;
+				font-family: $main-ff;
+				text-transform: uppercase;
+			}
+
+			&__label4 {
+				position: absolute;
+				top: 635px;
+				left: 1391px;
+
+				margin: 0;
+				padding: 24px 36px;
+
+				background: $light-gray;
+				color: $dark-gray;
+
+				font-size: 16px;
+				font-weight: 800;
+				font-family: $main-ff;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.lists__box__caption {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: inherit;
+
+	text-transform: uppercase;
+	color: $dark-gray;
+	margin: 0px 0px 30px 2px;
+}
+
+.info-list {
+	padding: 0;
+	
+	&__item {
+		list-style: none;
+		margin-bottom: 10px;
+	}
+
+	&__item:before {
+		content: url(d:/sinus/www/sass_progects/modus/src/images/right-array.jpg);
+		margin-left: 3px;
+		margin-right: 5px;
+		position: relative;
+		top: 2px;
+	}
+
+	&__link {
+		text-decoration: none;
+		font-size: 13px;
+		font-weight: 400;
+		font-family: $main-ff;
+
+		color: $gray;
+
+		&:hover {
+			text-decoration: none;
+			background: $mid-gray;
+			color: $gray;
+			padding:5px 0px 5px 0px;
+			border-radius: 3px;
+		}
+	}
+}
+
+.flag {
+	margin-top: -10px;
+}

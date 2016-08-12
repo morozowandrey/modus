@@ -4,3 +4,14 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
+%box {
+	position: absolute;
+
+	margin: 0;
+	padding: 24px 31px;
+
+	background: $light-gray;
+	font-size: 16px;
+	text-transform: uppercase;
+}
