@@ -101,7 +101,7 @@
     to {transform: rotate(-120deg);}
 }
 
-.content
+.content-infograph
 {
     width:100px;
     height:100px;
@@ -118,7 +118,7 @@
     font-weight: 800;
 }
 
-.content span
+.content-infograph span
 {
     opacity: 0;
     animation: load-content 3s;

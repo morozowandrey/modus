@@ -1,0 +1,77 @@
+.slider {
+	background: $light-gray;
+
+	&-caption {
+		font-size: 40px;
+		font-weight: 300;
+		font-family: $main-ff;
+
+		text-align: center;
+
+		height: 35px;
+		color: $main-orange;
+
+		margin-bottom: 25px;
+	}
+
+	&-text {
+		font-size: 14px;
+		font-weight: 300;
+		font-family: $main-ff;
+		color: $dark-gray;
+
+		text-align: center;
+
+		margin-bottom: 60px;
+	}
+
+	&-line-caption {
+		font-size: 16px;
+		font-weight: 800;
+		font-family: $main-ff;
+		color: $dark-gray;
+
+		float: left;
+
+		margin-bottom: 50px;
+
+		display: inline-block;
+	}
+
+	&-line-circle {
+		float: left;
+    	color: $dark-gray;
+    	position: relative;
+    	top: 5px;
+	}
+
+	&-line {
+		height: 1px;
+		background-color: $dark-gray;
+
+		display: inline-block;
+
+		position: relative;
+		top: 12px; 
+	}
+
+	&-box {
+		margin-top: 50px;
+
+		position: relative;
+		top: -60px;
+
+		&__image{
+			padding: 35px;
+			background: $white;
+			margin-right: 30px;
+			margin-bottom: 50px;
+			
+		}
+
+	}
+}
+
+.slick-prev:before, .slick-next:before {
+    color:red;
+}

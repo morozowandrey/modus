@@ -1,0 +1,146 @@
+.content {
+	background-image: linear-gradient($mid-gray 70%, $light-gray 30%);
+
+	&__caption {
+		text-transform: uppercase;
+		text-align: center;
+
+		font-size: 40px;
+		font-weight: 600;
+		font-family: $main-ff;
+
+		color: $dark-gray;
+
+		margin: 50px 0 80px;
+	}
+
+	&__linear {
+		height: 19px;
+		background: url(d:/sinus/www/sass_progects/modus/src/images/white_linear.png) repeat;	
+	}
+}
+
+.pricing-table {
+	height: 315px;
+	width: 270px;
+
+	background: $white;
+
+	border-radius: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: $mid-gray;
+
+	position: reletive;
+	display: inline-block;
+	margin-left: 27px;
+	margin-bottom: 110px;
+
+	&__caption {
+		font-size: 16px;
+		font-weight: 600;
+		font-family: $main-ff;
+		line-height: 55px;
+
+		text-transform: uppercase;
+		text-align: center;
+
+		height: 55px;
+		width: 200px;
+		color: $white;
+		background: $dark-gray;
+		border-radius: 5px;
+
+		position: relative;
+		left: 35px;
+		margin-top: -30px;
+		margin-bottom: 20px;
+	}
+
+	&__button {
+		font-size: 16px;
+		font-weight: 600;
+		font-family: $main-ff;
+
+		text-decoration: none;
+		text-align: center;
+		background: $dark-gray;
+
+		color: $white;
+		padding: 16.5px 62px;
+		cursor: pointer;
+		border-radius: 5px;
+
+		position: relative;
+		left: 35px;
+		bottom: -40px;
+	}
+
+	&-listbox {
+		
+	}
+
+	&__list {
+		margin: 0;
+		margin-left: 35px;
+		padding: 0;
+		display: inline-block;
+
+		&__item {
+			list-style: none;
+			font-size: 14px;
+			font-weight: 400;
+			font-family: $main-ff;
+
+			text-align: center;
+
+			color: $gray;
+			padding: 16px 18px;
+
+			border-top-style: solid;
+			border-top-color: $mid-gray;
+			border-top-width: 1px;
+
+		}
+
+		&__item:first-child {
+			border-top-style: none;
+			border-top-color: none;
+		}
+	}
+}
+
+.pricing-table:first-of-type {
+	margin-left: 0px;
+}
+
+////////////////////////////// pricing-table HOVER /////////////////////////////////////
+
+.pricing-table:hover {
+	background: $main-green;
+}
+
+.pricing-table:hover .pricing-table__caption {
+	background: $main-orange;
+}
+
+.pricing-table:hover .pricing-table__button {
+	background: $main-orange;
+	text-decoration: none;
+	color: $white;
+}
+
+.pricing-table:hover .pricing-table__list__item {
+	color: $white;
+
+	border-top-style: solid;
+	border-top-color: $dark-gray;
+}
+
+.pricing-table:hover .pricing-table__list__item:first-child {
+	border-top-style: none;
+	border-top-color: none;
+}
+
+
+////////////////////////////// pricing-table ADAPTIVE /////////////////////////////////////
+
