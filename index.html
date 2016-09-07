@@ -15,6 +15,7 @@
 <body>
 	<header class="header">
 		<div class="wrapper clearfix">
+		<div class="header-top-box">
 			<div class="header-logo">
 				<p class="header-logo__part1">modus</p>
 				<p class="header-logo__part2">versus</p>
@@ -38,7 +39,7 @@
 					<li class="header-menu__item"><a href="#" class="header-menu__link">contacts</a></li>
 				</ul>
 			</nav>
-			<i class="fa fa-search fa-sm" aria-hidden="true"></i>
+			<i class="fa fa-search fa-sm header__fa" aria-hidden="true"></i>
 			<section class="search" id="search">
 			    <label class="search__label" for="search-input">
 				    <i class="fa fa-search search__icon"aria-hidden="true"></i>
@@ -48,6 +49,7 @@
 			</section>
 		</div>
 		<div class="header-linear"></div>
+		</div>
 		<div class="under-header">
 			<div class="wrapper">
 				<p class="under-header__name">servises</p>
@@ -66,7 +68,7 @@
 				<h1 class="info-heading__caption">Faucibus ultricies congue</h1>
 				<p class="info-heading__text">Maecenas eget turpis turpis. Nunc vel metus augue. Aenean euismod cursus ligula eget dapibus. Praesent vel erat in tortor placerat dignissim. Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 			</div>
-			<div class="info-lists">
+			<div class="info-lists col-lg-6 col-lg-offset-0 col-md-7 col-md-offset-3 col-sm-10 col-sm-offset-2 col-xs-12 col-xs-offset-0">
 				<div class="info-lists__box1">
 					<p class="lists__box__caption">planning</p>
 					<ul class="info-list">
@@ -90,7 +92,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="info-graph">
+			<div class="info-graph col-lg-6 col-lg-offset-0 col-md-offset-3 col-md-7 col-sm-10 col-sm-offset-2 col-xs-12 col-xs-offset-0">
 				<p class="info-graph__caption">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <span><a class="info-graph__caption__link" href="#">vehicula mattis</a></span>. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
 				<div class="info-graph__circles">
 					<div class="pie">
@@ -150,11 +152,11 @@
 		</div>
 	</section>
 	<section class="content">
-		<div class="container">
 		<div class="content__linear"></div>
+		<div class="container">
 		<div class="wrapper clearfix">
 			<h1 class="content__caption">pricing tables</h1>
-			<div class="col-lg-3"> <!-- col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 -->
+			<div class="to-center col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-1 col-xs-12">
 			<div class="pricing-table">
 				<p class="pricing-table__caption">start</p>
 				<div class="pricing-table-listbox">
@@ -168,7 +170,7 @@
 				<a href="" class="pricing-table__button">Buy NOW</a>
 			</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="to-center col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-2 col-xs-12">
 			<div class="pricing-table">
 				<p class="pricing-table__caption">basic</p>
 				<div class="pricing-table__listbox">
@@ -182,7 +184,7 @@
 				<a href="" class="pricing-table__button">Buy NOW</a>
 			</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="to-center col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-1 col-xs-12">
 			<div class="pricing-table">
 				<p class="pricing-table__caption">business</p>
 				<div class="pricing-table__listbox">
@@ -196,7 +198,7 @@
 				<a href="" class="pricing-table__button">Buy NOW</a>
 			</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="to-center col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-2 col-xs-12">
 			<div class="pricing-table">
 				<p class="pricing-table__caption">extended</p>
 				<div class="pricing-table__listbox">
@@ -214,13 +216,15 @@
 		</div>
 	</section>
 	<section class="slider">
-	    <div class="container wrapper">
+	    <div class="wrapper clearfix">
 			<h1 class="slider-caption">Best Solution is the simplest IDEA!</h1>
 			<p class="slider-text">Capacitance cascading integer reflective interface data development high bus cache dithering transponder. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-			<p class="slider-line-caption">Our Happy Clients</p>
-			<i class="slider-line-circle fa fa-circle" aria-hidden="true"></i>
-			<div class="slider-line col-md-8"></div>
-			<div class="slider-box col-md-12">
+			<div class="slider-line-box">
+				<p class="slider-line-caption">Our Happy Clients</p>
+				<i class="slider-line-circle fa fa-circle" aria-hidden="true"></i>
+				<div class="slider-line clo-lg-8 col-md-8 col-sm-7"></div>
+			</div>
+			<div class="slider-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			    <div><img class="slider-box__image" src="src/images/slider_img.jpg" alt="bla"></div>
 			    <div><img class="slider-box__image" src="src/images/slider_img.jpg" alt="bla"></div>
 			    <div><img class="slider-box__image" src="src/images/slider_img.jpg" alt="bla"></div>
@@ -236,6 +240,81 @@
 			</div>
 	    </div>
 	</section>
+	<footer class="footer">
+		<div class="footer-linear"></div>
+		<div class="wrapper clearfix">
+			<div class="footer-info col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+				<div class="footer-info__logo">
+					<p class="footer-info__logo__part1">modus</p>
+					<p class="footer-info__logo__part2">versus</p>
+				</div>
+				<p class="footer-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</p>
+				<div class="footer-info__phone">
+					<p class="footer-info__phone__part1">Phone:</p>
+					<p class="footer-info__phone__part2">182 2569 5896</p>
+				</div>
+				<div class="footer-info__email">
+					<p class="footer-info__email__part1">e-mail:</p>
+					<p class="footer-info__email__part2">info@modu.versus</p>
+				</div>
+			</div>
+			<div class="footer-lists col-lg-4 col-md-4 col-sm-4">
+				<div class="footer-lists__box1">
+					<p class="footer-lists__box__caption">planning</p>
+					<ul class="footer-list">
+						<li class="footer-list__item"><a href="" class="footer-list__link">About</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">FAQ</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Contact</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Terms</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Privacy</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Testimonials</a></li>
+					</ul>
+				</div>
+				<div class="footer-lists__box2">
+					<p class="footer-lists__box__caption">development</p>
+					<ul class="footer-list">
+						<li class="footer-list__item"><a href="" class="footer-list__link">Blog</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Forum</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Support</a></li>
+						<li class="footer-list__item"><a href="" class="footer-list__link">Newsletter</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-blog col-lg-4 col-md-4">
+				<div class="footer-blog__logo">
+					<p class="footer-blog__logo__part1">from the</p>
+					<p class="footer-blog__logo__part2">blog</p>
+				</div>
+				<div class="footer-blog__infoBox">
+					<img class="footer-blog__image" src="src/images/footer_img.png" alt="no img">
+					<div class="footer-blog__textBox">
+						<p class="footer-blog__textBox__text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<p class="footer-blog__textBox__text2">26 May, 2013</p>
+					</div>
+				</div>
+				<div class="footer-blog__infoBox">
+					<img class="footer-blog__image" src="src/images/footer_img.png" alt="no img">
+					<div class="footer-blog__textBox">
+						<p class="footer-blog__textBox__text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<p class="footer-blog__textBox__text2">26 May, 2013</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+			<div class="under-footer">
+				<div class="wrapper clearfix">
+					<p class="under-footer__text">2013  ModusVersus</p>
+					<!-- <img class="under-footer__image" src="src/images/underfooter.png" alt="no img"> -->
+					<div class="under-footer__socials">
+						<i class="fa fa-facebook under-footer__fa" aria-hidden="true"></i>
+						<i class="fa fa-google-plus under-footer__fa" aria-hidden="true"></i>
+						<i class="fa fa-twitter under-footer__fa" aria-hidden="true"></i>
+						<i class="fa fa-github under-footer__fa" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+	</footer>
 	
 	
 	<script src="build/production.js"></script>

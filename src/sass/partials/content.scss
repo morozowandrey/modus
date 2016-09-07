@@ -51,9 +51,8 @@
 		border-radius: 5px;
 
 		position: relative;
-		left: 35px;
-		margin-top: -30px;
-		margin-bottom: 20px;
+		bottom: 30px;
+		margin: 0 auto;
 	}
 
 	&__button {
@@ -72,7 +71,7 @@
 
 		position: relative;
 		left: 35px;
-		bottom: -40px;
+		bottom: -25px;
 	}
 
 	&-listbox {
@@ -80,7 +79,6 @@
 	}
 
 	&__list {
-		margin: 0;
 		margin-left: 35px;
 		padding: 0;
 		display: inline-block;
@@ -113,6 +111,7 @@
 	margin-left: 0px;
 }
 
+
 ////////////////////////////// pricing-table HOVER /////////////////////////////////////
 
 .pricing-table:hover {
@@ -144,3 +143,15 @@
 
 ////////////////////////////// pricing-table ADAPTIVE /////////////////////////////////////
 
+@media (max-width: 767px) {
+	.to-center {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 375px) {
+	.content__caption {
+		font-size: 30px;
+	}
+}

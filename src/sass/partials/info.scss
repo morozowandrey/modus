@@ -1,14 +1,14 @@
 
-%box {
-	position: absolute;
+// %box {
+// 	position: absolute;
 
-	margin: 0;
-	padding: 24px 31px;
+// 	margin: 0;
+// 	padding: 24px 31px;
 
-	background: $light-gray;
-	font-size: 16px;
-	text-transform: uppercase;
-}
+// 	background: $light-gray;
+// 	font-size: 16px;
+// 	text-transform: uppercase;
+// }
 
 .info {
 	background: $light-gray;
@@ -53,18 +53,19 @@
 	}
 
 	&-graph {
+		padding: 0;
+
 		display: inline-block;
-		margin-left: 60px;
-		bottom: 85px;
+		bottom: 15px;
 		position: relative;
 
+
 		&__caption {
-			width: 515px;
 			margin-left: 20px;
 
 			margin-bottom: 75px;
 
-			font-size: 12px;
+			font-size: 13px;
 			font-weight: 600;
 			font-family: $main-ff;
 
@@ -103,7 +104,7 @@
 				position: relative;
 
 				margin: 0;
-				padding: 24px 35px;
+				padding: 24px 25px;
 
 				background: $light-gray;
 				color: $dark-gray;
@@ -119,7 +120,7 @@
 				position: relative;
 
 				margin: 0;
-				padding: 24px 40px;
+				padding: 24px 34px;
 
 				background: $light-gray;
 				color: $dark-gray;
@@ -135,7 +136,7 @@
 				position: relative;
 
 				margin: 0;
-				padding: 24px 36px;
+				padding: 24px 27px;
 
 				background: $light-gray;
 				color: $dark-gray;
@@ -196,3 +197,71 @@
 .flag {
 	margin-top: -10px;
 }
+
+.info .info-graph {
+	padding: 0;
+}
+
+///////////////////////////////ADAPTIVE/////////////////////////////////////
+
+@media (max-width: 1200px) {
+	.info-heading {
+		padding: 0 30px;
+	}
+
+	.info-graph {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 991px) {
+	.info-graph__caption{
+		width: 70%;
+	}
+}
+
+@media (max-width: 770px) {
+	.info-lists {
+		display: flex;
+		justify-content: center;
+	}
+
+	.info-lists__box2 {
+		margin-left: 15px;
+	}
+
+	.info .info-graph {
+    	padding-left: 30px;
+	}
+
+	.info-graph__caption {
+    	width: 70%;
+	}
+}
+
+@media (max-width: 530px) {
+	.info-lists__box2 {
+		margin-left: 0px;
+	}
+
+	.info-lists__box1,
+	.info-lists__box2 {
+		margin-left: 35px;
+	}
+
+	.info-lists {
+		display: block;
+	}
+
+	.info .info-graph {
+    	margin-left: 0px;
+	}
+}
+
+@media (max-width: 423px) {
+
+	.info-graph__circles {
+		margin-left: 50px;
+	}
+}
+
