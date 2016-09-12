@@ -1,15 +1,3 @@
-
-// %box {
-// 	position: absolute;
-
-// 	margin: 0;
-// 	padding: 24px 31px;
-
-// 	background: $light-gray;
-// 	font-size: 16px;
-// 	text-transform: uppercase;
-// }
-
 .info {
 	background: $light-gray;
 
@@ -169,7 +157,7 @@
 	}
 
 	&__item:before {
-		content: url(d:/sinus/www/sass_progects/modus/src/images/right-array.jpg);
+		content: url(images/right-array.jpg);
 		margin-left: 3px;
 		margin-right: 5px;
 		position: relative;
